@@ -1,6 +1,6 @@
 import streamlit as st
 import joblib
-
+st.set_page_config(page_title="Sarcasm Detection",page_icon="💀")
 model = joblib.load("./Model/naive_bayes_classifier.pkl")
 
 
